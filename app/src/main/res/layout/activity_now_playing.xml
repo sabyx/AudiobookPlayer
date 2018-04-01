@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context="com.example.sabyx.audiobookplayer.NowPlayingActivity">
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/audiobook_name_text_view"
+                style="@style/now_playing_text_view" />
+
+            <TextView
+                android:id="@+id/audiobook_author_text_view"
+                style="@style/now_playing_text_view"/>
+
+            <TextView
+                android:id="@+id/audiobook_duration_text_view"
+                style="@style/now_playing_text_view"/>
+
+            <TextView
+                android:id="@+id/audiobook_description_text_view"
+                style="@style/now_playing_text_view"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.v7.widget.ButtonBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/back_button"
+            style="@style/now_playing_button"
+            android:text="@string/back_button"/>
+
+        <Button
+            android:id="@+id/play_button"
+            style="@style/now_playing_button"
+            android:text="@string/play_button"/>
+
+    </android.support.v7.widget.ButtonBarLayout>
+
+</LinearLayout>

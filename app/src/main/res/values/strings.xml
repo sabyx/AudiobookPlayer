@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AudiobookPlayer</string>
+    <string name="library_label">Library</string>
+    <string name="now_playing_label">Now Playing</string>
+
+    <string name="author_text">Author: %s</string>
+    <string name="name_text">Name: %s</string>
+    <string name="duration_text">Duration: %s</string>
+    <string name="description_text">Description: %s</string>
+
+    <string name="back_button">Back</string>
+    <string name="play_button">Play</string>
+</resources>

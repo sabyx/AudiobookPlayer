@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="library_list">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="library_list_item">
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/back</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="now_playing_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/now_playing_text_view_size</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="now_playing_button">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>
